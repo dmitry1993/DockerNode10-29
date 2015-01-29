@@ -20,10 +20,6 @@ RUN \
 	sudo easy_install supervisor
 
 
-ADD /supervisord.conf  /etc
-
-
-
 
  # Add Node & npm to PATH
 ENV PATH /tmp/node-v0.10.29-linux-x64/bin:$PATH
