@@ -16,8 +16,8 @@ RUN \
 
 
 RUN \
-	sudo apt-get install python-setuptools && \
-	sudo easy_install supervisor
+	apt-get install python-setuptools && \
+	easy_install supervisor
 
 
 
