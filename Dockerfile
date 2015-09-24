@@ -25,4 +25,4 @@ RUN \
 ENV PATH /tmp/node-v0.10.29-linux-x64/bin:$PATH
 
 
-CMD[ "/bin/bash" ]
+CMD [ "/bin/bash" ]
